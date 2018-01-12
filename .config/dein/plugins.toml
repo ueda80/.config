@@ -46,12 +46,15 @@ repo = 'vim-ruby/vim-ruby'
 on_ft = 'ruby'
 
 [[plugins]] # Elixier
-repo = 'elixir-editors/vim-elixir'
+repo = 'elixir-lang/vim-elixir'
+on_ft = 'ex'
+
+[[plugins]] # Elixier/Mix
+repo = 'mattreduce/vim-mix'
 on_ft = 'ex'
 
 [[plugins]] # Elixier
-repo = 'slashmili/alchemist.vim'
-depends = 'vim-elixir'
+repo = 'BjRo/vim-extest'
 on_ft = 'ex'
 
 [[plugins]] # javascript
